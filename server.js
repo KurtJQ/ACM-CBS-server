@@ -4,7 +4,7 @@ import student from "./routes/student.js";
 import cashier from "./routes/cashier.js";
 import transaction from "./routes/transaction.js";
 
-const PORT = process.env.PORT;
+const PORT = 5050;
 const app = express();
 
 app.use(cors());

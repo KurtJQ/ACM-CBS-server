@@ -1,6 +1,7 @@
 import { Int32, MongoClient, ServerApiVersion } from "mongodb";
 
-const uri = process.env.MONGODB_URI;
+const uri =
+  "mongodb+srv://vercel-admin-user-664271f0e56e871ccaaf2d2d:vCJAjwud4XqBtI58@acm-cbs.wrqqais.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 const client = new MongoClient(uri, {
   pkFactory: { createPk: () => new Int32() },
